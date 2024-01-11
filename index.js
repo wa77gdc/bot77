@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
+const port = process.env.PORT || 4000
 
 const line = require('@line/bot-sdk');
 
@@ -638,4 +639,4 @@ app.get('/', (req, res) => {
     res.send('ok');
 })
 
-app.listen(4000, () => console.log('Start server on port 4000'))
+app.listen(port, () => console.log(`Start server on port ${port}`))
