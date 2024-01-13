@@ -113,7 +113,7 @@ async function handleEvents(event) {
                                         }
                                     }
                                 ],
-                                "backgroundColor": "#cccccc"
+                                "backgroundColor": "#eeeeee"
                             },
                             {
                                 "type": "box",
@@ -128,7 +128,7 @@ async function handleEvents(event) {
                                         }
                                     }
                                 ],
-                                "backgroundColor": "#eeeeee"
+                                "backgroundColor": "#cccccc"
                             }
                         ]
                     },
@@ -496,7 +496,7 @@ async function handleEvents(event) {
                               }
                             }
                           ],
-                          "backgroundColor": "#eeeeee"
+                          "backgroundColor": "#cccccc"
                         }
                       ],
                       "spacing": "0px"
@@ -655,7 +655,7 @@ async function handleEvents(event) {
                               }
                             }
                           ],
-                          "backgroundColor": "#cccccc"
+                          "backgroundColor": "#eeeeee"
                         },
                         {
                           "type": "box",
@@ -685,7 +685,7 @@ async function handleEvents(event) {
                               }
                             }
                           ],
-                          "backgroundColor": "#cccccc"
+                          "backgroundColor": "#eeeeee"
                         },
                         {
                           "type": "box",
