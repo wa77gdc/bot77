@@ -108,6 +108,21 @@ async function handleEvents(event) {
                                         "type": "button",
                                         "action": {
                                             "type": "message",
+                                            "label": "ข้อมูลการเล่นเกม",
+                                            "text": "#ข้อมูลการเล่นเกม"
+                                        }
+                                    }
+                                ],
+                                "backgroundColor": "#cccccc"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                    {
+                                        "type": "button",
+                                        "action": {
+                                            "type": "message",
                                             "label": "โปรโมชั่น",
                                             "text": "#โปรโมชั่น"
                                         }
@@ -467,6 +482,225 @@ async function handleEvents(event) {
                             }
                           ],
                           "backgroundColor": "#eeeeee"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "โหลดแอปลงหน้าโฮมยังไง",
+                                "text": "โหลดแอปลงหน้าโฮมยังไง"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#eeeeee"
+                        }
+                      ],
+                      "spacing": "0px"
+                    },
+                    "styles": {
+                      "hero": {
+                        "separator": true
+                      }
+                    }
+                  }
+
+            });
+
+        }
+
+        if (event.message.text == '#ข้อมูลการเล่นเกม') {
+            return client.replyMessage(event.replyToken, {
+                type: 'flex',
+                altText: 'ข้อมูลการเล่นเกม',
+                contents: {
+                    "type": "bubble",
+                    "header": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "หัวข้อ ข้อมูลการเล่นเกม",
+                          "align": "center",
+                          "size": "20px",
+                          "color": "#333333"
+                        }
+                      ],
+                      "backgroundColor": "#cccccc",
+                    },
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีแทงบอล",
+                                "text": "วิธีแทงบอล"
+                              }
+                            }
+                          ],
+                          "margin": "10px",
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีดูบิลบอล",
+                                "text": "วิธีดูบิลบอล"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#eeeeee"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีแทงบอลสเต็ป",
+                                "text": "วิธีแทงบอลสเต็ป"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "แนะนำค่ายบอล",
+                                "text": "แนะนำค่ายบอล"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#eeeeee"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีปรับค่าคอมบาคาร่า",
+                                "text": "วิธีปรับค่าคอมบาคาร่า"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีเล่นบาคาร่าวัว",
+                                "text": "วิธีเล่นบาคาร่าวัว"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#eeeeee"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีเล่นบาคาร่าสายฟ้า",
+                                "text": "วิธีเล่นบาคาร่าสายฟ้า"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีการซื้อฟรีสปิน",
+                                "text": "วิธีการซื้อฟรีสปิน"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีปรับเบทสล็อต",
+                                "text": "วิธีปรับเบทสล็อต"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีเล่นไฮโล",
+                                "text": "วิธีเล่นไฮโล"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
+                        },
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "button",
+                              "action": {
+                                "type": "message",
+                                "label": "วิธีเล่นรูเล็ต",
+                                "text": "วิธีเล่นรูเล็ต"
+                              }
+                            }
+                          ],
+                          "backgroundColor": "#cccccc"
                         }
                       ],
                       "spacing": "0px"
