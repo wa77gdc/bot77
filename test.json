@@ -1,38 +1,23 @@
 {
   "type": "bubble",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "หัวข้อ โปรโมชั่น",
-        "align": "center",
-        "size": "20px",
-        "color": "#333333"
-      }
-    ],
-    "backgroundColor": "#cccccc"
+  "hero": {
+    "type": "image",
+    "url": "https://lh3.googleusercontent.com/d/1iPLMDqZoy_q8YjSMRbV-WY5QtDDB_u7Z",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
   },
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "message",
-              "label": "ฝากรับสูตร",
-              "text": "ฝากรับสูตร"
-            }
-          }
-        ],
-        "margin": "10px",
-        "backgroundColor": "#cccccc"
+        "type": "text",
+        "text": "เลือกหัวข้อที่ต้องการสอบถาม",
+        "align": "center",
+        "size": "lg",
+        "color": "#333333",
+        "weight": "bold"
       },
       {
         "type": "box",
@@ -42,12 +27,17 @@
             "type": "button",
             "action": {
               "type": "message",
-              "label": "โปรกีฬา5%",
-              "text": "โปรกีฬา5%"
-            }
+              "label": "สมัครสมาชิก",
+              "text": "#สมัครสมาชิก"
+            },
+            "margin": "none",
+            "height": "sm",
+            "style": "primary"
           }
         ],
-        "backgroundColor": "#eeeeee"
+        "margin": "xs",
+        "spacing": "none",
+        "paddingAll": "xs"
       },
       {
         "type": "box",
@@ -57,12 +47,17 @@
             "type": "button",
             "action": {
               "type": "message",
-              "label": "โปรมวย10%",
-              "text": "โปรมวย10%"
-            }
+              "label": "ฝาก-ถอน",
+              "text": "#ฝาก-ถอน"
+            },
+            "margin": "none",
+            "height": "sm",
+            "style": "primary"
           }
         ],
-        "backgroundColor": "#cccccc"
+        "margin": "xs",
+        "spacing": "none",
+        "paddingAll": "xs"
       },
       {
         "type": "box",
@@ -72,12 +67,17 @@
             "type": "button",
             "action": {
               "type": "message",
-              "label": "โปรวันเกิด",
-              "text": "โปรวันเกิด"
-            }
+              "label": "แจ้งปัญหาการใช้งาน",
+              "text": "#แจ้งปัญหาการใช้งาน"
+            },
+            "margin": "none",
+            "height": "sm",
+            "style": "primary"
           }
         ],
-        "backgroundColor": "#eeeeee"
+        "margin": "xs",
+        "spacing": "none",
+        "paddingAll": "xs"
       },
       {
         "type": "box",
@@ -87,12 +87,17 @@
             "type": "button",
             "action": {
               "type": "message",
-              "label": "โปรคืนยอดเสีย",
-              "text": "โปรคืนยอดเสีย"
-            }
+              "label": "ข้อมูลการเล่นเกม",
+              "text": "#ข้อมูลการเล่นเกม"
+            },
+            "margin": "none",
+            "height": "sm",
+            "style": "primary"
           }
         ],
-        "backgroundColor": "#cccccc"
+        "margin": "xs",
+        "spacing": "none",
+        "paddingAll": "xs"
       },
       {
         "type": "box",
@@ -102,30 +107,19 @@
             "type": "button",
             "action": {
               "type": "message",
-              "label": "โปรทายเลขท้าย",
-              "text": "โปรทายเลขท้าย"
-            }
+              "label": "โปรโมชั่น",
+              "text": "#โปรโมชั่น"
+            },
+            "margin": "none",
+            "height": "sm",
+            "style": "primary"
           }
         ],
-        "backgroundColor": "#eeeeee"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "button",
-            "action": {
-              "type": "message",
-              "label": "โปรแนะนำเพื่อน",
-              "text": "โปรแนะนำเพื่อน"
-            }
-          }
-        ],
-        "backgroundColor": "#cccccc"
+        "margin": "xs",
+        "spacing": "none",
+        "paddingAll": "xs"
       }
-    ],
-    "spacing": "0px"
+    ]
   },
   "styles": {
     "hero": {
