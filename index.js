@@ -859,6 +859,184 @@ async function handleEvents(event) {
             });
 
         }
+        if (event.message.text == 'test') {
+            return client.replyMessage(event.replyToken, {
+                type: 'flex',
+                altText: 'โปรโมชั่น',
+                contents: {
+                  "type": "bubble",
+                  "hero": {
+                    "type": "image",
+                    "url": "https://lh3.googleusercontent.com/d/1DV2Ua4Yp6Wf9pWPogunaxmXRPRJBL2bd",
+                    "size": "full",
+                    "aspectMode": "cover",
+                    "aspectRatio": "20:13"
+                  },
+                  "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "หัวข้อ โปรโมชั่น",
+                        "size": "xl",
+                        "color": "#333333",
+                        "weight": "bold",
+                        "align": "start"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "ฝากรับสูตร",
+                              "text": "ฝากรับสูตร"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "margin": "xs",
+                        "spacing": "none",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรกีฬา5%",
+                              "text": "โปรกีฬา5%"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรมวย10%",
+                              "text": "โปรมวย10%"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรวันเกิด",
+                              "text": "โปรวันเกิด"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรคืนยอดเสีย",
+                              "text": "โปรคืนยอดเสีย"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรทายเลขท้าย",
+                              "text": "โปรทายเลขท้าย"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "button",
+                            "action": {
+                              "type": "message",
+                              "label": "โปรแนะนำเพื่อน",
+                              "text": "โปรแนะนำเพื่อน"
+                            },
+                            "margin": "none",
+                            "height": "sm",
+                            "style": "primary"
+                          }
+                        ],
+                        "spacing": "none",
+                        "margin": "xs",
+                        "paddingAll": "xs"
+                      }
+                    ],
+                    "spacing": "0px"
+                  },
+                  "styles": {
+                    "hero": {
+                      "separator": true
+                    }
+                  }
+                }
+
+            });
+
+        }
         
 
     }

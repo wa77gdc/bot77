@@ -1,0 +1,135 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "หัวข้อ โปรโมชั่น",
+        "align": "center",
+        "size": "20px",
+        "color": "#333333"
+      }
+    ],
+    "backgroundColor": "#cccccc"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "ฝากรับสูตร",
+              "text": "ฝากรับสูตร"
+            }
+          }
+        ],
+        "margin": "10px",
+        "backgroundColor": "#cccccc"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรกีฬา5%",
+              "text": "โปรกีฬา5%"
+            }
+          }
+        ],
+        "backgroundColor": "#eeeeee"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรมวย10%",
+              "text": "โปรมวย10%"
+            }
+          }
+        ],
+        "backgroundColor": "#cccccc"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรวันเกิด",
+              "text": "โปรวันเกิด"
+            }
+          }
+        ],
+        "backgroundColor": "#eeeeee"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรคืนยอดเสีย",
+              "text": "โปรคืนยอดเสีย"
+            }
+          }
+        ],
+        "backgroundColor": "#cccccc"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรทายเลขท้าย",
+              "text": "โปรทายเลขท้าย"
+            }
+          }
+        ],
+        "backgroundColor": "#eeeeee"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "โปรแนะนำเพื่อน",
+              "text": "โปรแนะนำเพื่อน"
+            }
+          }
+        ],
+        "backgroundColor": "#cccccc"
+      }
+    ],
+    "spacing": "0px"
+  },
+  "styles": {
+    "hero": {
+      "separator": true
+    }
+  }
+}
